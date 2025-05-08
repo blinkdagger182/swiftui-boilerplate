@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="PhotoCleanHistory" representedClassName=".PhotoCleanHistory" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="newSize" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="originalSize" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="spaceSaved" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="timestamp" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="PhotoMetadata" representedClassName="PhotoMetadata" syncable="YES">
+        <attribute name="assetIdentifier" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isCleaned" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastCleanDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="originalSize" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sizeSaved" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="UserSettings" representedClassName="UserSettings" syncable="YES">
+        <attribute name="autoCleanEnabled" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="cleaningQuality" attributeType="String" defaultValueString="standard"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="selectedTheme" attributeType="String" defaultValueString="system"/>
+        <attribute name="useFaceDetection" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+    </entity>
+</model> 

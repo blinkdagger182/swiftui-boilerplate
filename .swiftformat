@@ -1,0 +1,44 @@
+--swiftversion 5.9
+
+# Format options
+--allman false
+--indent 4
+--indentcase true
+--xcodeindentation true
+--linebreaks lf
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--maxwidth 120
+--self remove
+--semicolons never
+--commas always
+--trimwhitespace always
+--stripunusedargs closure-only
+--header strip
+
+# Rules
+--enable isEmpty
+--enable andOperator
+--enable wrapMultilineStatementBraces
+--enable sortedImports
+--enable duplicateImports
+--enable consecutiveSpaces
+--enable consecutiveBlankLines
+--enable blankLinesAtEndOfScope
+--enable redundantBreak
+--enable redundantLet
+--enable redundantNilInit
+--enable trailingClosures
+--enable unusedArguments
+--enable leadingDelimiters
+--enable spaceInsideBrackets
+--enable spaceInsideBraces
+--enable spaceAroundOperators
+--enable spaceAroundBraces
+--enable blankLinesAroundMark
+
+# Excluded files
+--exclude Pods
+--exclude .build
+--exclude Resources/Assets.xcassets 

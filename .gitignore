@@ -1,0 +1,82 @@
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/**/*
+DerivedData/
+.idea/
+*.hmap
+
+# SwiftPM
+.build/
+.swiftpm/xcode/package.xcworkspace/
+
+# Tuist
+Tuist/Generated/
+Project.swift
+Setup.swift
+*.xcodeproj
+*.xcworkspace
+Derived/
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/.env
+.env
+
+# Swift Package Cache
+SourcePackages/
+Package.resolved
+
+# App Artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+
+# Crashlytics
+*.xcarchive
+
+# Xcode Plist corruption backups
+*.plist~
+
+# xcresult (Xcode Test Results)
+*.xcresult
+
+# Firebase / RevenueCat / Secrets
+GoogleService-Info.plist
+RevenueCatEntitlements.plist
+*.xcconfig
+Secrets.xcconfig
+Config.swift
+
+# Misc
+*.log
+*.DS_Store
+*.swp
+*.tmp
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# SwiftPM build folders
+/.build/
