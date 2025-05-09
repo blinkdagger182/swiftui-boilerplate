@@ -237,17 +237,17 @@ struct OnboardingView: View {
 }
 
 // MARK: - Coordinator View
-struct OnboardingCoordinatorView: View {
-    @State private var currentPage: Int = 0
-    @EnvironmentObject private var analyticsService: AnalyticsService
-    
-    var body: some View {
-        OnboardingView(currentPage: $currentPage)
-            .environmentObject(analyticsService)
-    }
-}
+//struct OnboardingCoordinatorView: View {
+//    @State private var currentPage: Int = 0
+//    @EnvironmentObject private var analyticsService: AnalyticsService
+//    
+//    var body: some View {
+//        OnboardingView(currentPage: $currentPage)
+//            .environmentObject(analyticsService)
+//    }
+//}
 
-#Preview {
-    OnboardingCoordinatorView()
-        .environmentObject(AnalyticsService.shared)
-} 
+//#Preview {
+//    OnboardingCoordinatorView()
+//        .environmentObject(AnalyticsService.shared)
+//} 
